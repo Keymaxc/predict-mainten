@@ -9,6 +9,7 @@ try:
     from dotenv import load_dotenv
     load_dotenv()
 except ImportError:          
+    pass
 
 DATA_DIR = Path("data/raw")
 BATCH_LINES = 100_000        
