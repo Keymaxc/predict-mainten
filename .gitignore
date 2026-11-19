@@ -1,0 +1,10 @@
+# kredensial
+.env
+
+# data besar hasil generate (bisa dibuat ulang dengan scripts/generate_data.py)
+data/raw/sensor_readings.csv
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
